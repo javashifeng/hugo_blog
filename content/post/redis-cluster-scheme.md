@@ -3,7 +3,7 @@ title: "Redis Cluster Scheme"
 date: 2019-04-14T17:54:02+08:00
 draft: true
 tags: ["web","golang"]
-categories: ["other"]
+categories: ["Redis"]
 ---
 
 # Redis集群方案
