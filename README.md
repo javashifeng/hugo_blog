@@ -11,4 +11,10 @@ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/anan
 git submodule update --remote --merge
 ```
 
+## Configuration
+Copy the config.toml or config.yaml from the exampleSite, then edit as desired.
 
+When editing the header background colors, this site has some nice color combinations.
+
+# Favicons
+Upload your image to [RealFaviconGenerator](https://realfavicongenerator.net/) then copy-paste the generated favicon files under static.
