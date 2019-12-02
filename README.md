@@ -4,6 +4,7 @@
 ```
 git submodule add https://github.com/zwbetz-gh/cayman-hugo-theme.git themes/cayman-hugo-theme
 git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke
+git submodule add https://github.com/vjeantet/hugo-theme-casper.git themes/casper
 ```
 
 ## 更新主题

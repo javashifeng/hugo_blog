@@ -1,23 +1,72 @@
-title = "Notre-Dame de Paris"
+title = "三人行必有我师"
 baseURL = ""
-languageCode = "en-us"
+languageCode = "zh-cn"
+theme = "casper"
+paginate = 5
 
-MetaDataFormat = "yaml"
-DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
-enableRobotsTXT = true
-theme = "ananke"
-
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
+Copyright = "All rights reserved - 2018"
+DisqusShortname = "schecter"
+canonifyurls = true
+DefaultContentLanguage = "zh"
 
 [params]
-  description = "The last theme you'll ever need. Maybe."
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-black"
-  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  description = "不惧未来"
+  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  # cover = "images/boy_bicycle.jpg"
   author = "Schecter"
+  authorlocation = "Hangzhou, China"
+  authorwebsite = "antcvs.com"
+  authorbio= "talk is cheap, show me the code!"
+  # logo = "images/bird.png"
+  # googleAnalyticsUserID = "UA-79101-12"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  # RSSLink = "http://feeds.feedburner.com/..."
+  # githubName = "javashifeng"
+  email = "wsf11567@gmail.com"
+  # twitterName = "javashifeng"
+  # facebookName = ""
+  # codepenName = ""
+  # linkedinName = ""
+  # stackoverflowId = ""
+  # keybaseName = ""
+  # flickrName = ""
+  # instagramName = ""
+  # pinterestName = ""
+  # googlePlusName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+
+  # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
+  # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
+  # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
+  hjsStyle = "atom-one-light"
+
+  # [params.social]
+  #  twitter = ""
+
+[[menu.main]]
+  name = "Home"
+  weight = -1
+  identifier = "blog"
+  url = "/"
+
+[[menu.main]]
+  name = "Machine Learning"
+  weight = -2
+  identifier = "redis"
+  url = "/tags/redis"
+
+[[menu.main]]
+  name = "Others"
+  weight = -3
+  identifier = "other"
+  url = "/tags/others"
+
+[[menu.main]]
+  name = "About"
+  weight = -4
+  identifier = "about"
+  url = "/about"
+
+  [permalinks]
+  post = "/:year/:month/:day/:title/"
